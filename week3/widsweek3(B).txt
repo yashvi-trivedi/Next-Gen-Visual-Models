@@ -1,0 +1,12 @@
+Model1: Basic vanilla VAE
+Model2: Encoder replaced with encoder-decoder architecture
+Model3: Decoder replaced with encoder-decoder architecture
+Model4: Encoder and Decoder replaced with encoder-decoder architecture
+
+Model	Error
+[1]	0.009744472519418373
+[2]	0.8806044319044611
+[3]	0.025893902220319804
+[4]	0.026452232309875465
+
+Hence, since the accuracy of the vanilla VAE is higher, it is the better architecture.
